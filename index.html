@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img src="images/Forza_new_logo.png" alt="Logo Forza Motors" class="logo">
+            <h1 class="navbar-brand m-0 section-title">Motors</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#veiculos" class="nav-link">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Veículos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos" class="text-center">
+            <div class="carousel slide d-flex justify-content-center mx-auto" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/1.png" alt="Foto de um carro" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/2.png" alt="Foto de um carro" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/3.png" alt="Foto de um carro" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span    class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/espaco-interno.jpeg" class="d-block w-100 rounded" alt="Foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">nós</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium officiis numquam quos iure velit natus alias ut reprehenderit dolor! Eius autem molestias fugit quisquam ducimus explicabo aliquid provident asperiores?
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/preparacao.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Preparação de veículos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/a-superficie-do-carro-em-uma-oficina-mecanica-profissional-combinando-sua-experiencia-com-produtos-de-pintura-premium-para-rejuvenescer-gerado-por-ia_855332-2407.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Pintura
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/vistoriaveicular.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Laudo veicular
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="veiculos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">carros</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-veiculos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#esportivos" class="fw-bold text-start nav-link text-colored active">Esportivos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#suvs" class="fw-bold text-start nav-link text-colored">Suvs</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sedans" class="fw-bold text-start nav-link text-colored">Sedans</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- ... (previous code) ... -->
+
+<div class="tab-pane active" id="esportivos">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/gallardo.jpeg" alt="Gallardo">
+            <h5 class="text-colored fw-bold mt-2">Lamborghini Gallardo</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/jaguar type f.webp" alt="Jaguar Type-F">
+            <h5 class="text-colored fw-bold mt-2">Jaguar Type-F</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/corvette.png" alt="Corvette">
+            <h5 class="text-colored fw-bold mt-2">Corvette</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/spider.png" alt="Ferrari Spider">
+            <h5 class="text-colored fw-bold mt-2">Ferrari Spider</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/mercedes.png" alt="Mercedes">
+            <h5 class="text-colored fw-bold mt-2">Mercedes AMG Vision</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+
+<div class="tab-pane" id="suvs">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/bmw suv.png" alt="BMW">
+            <h5 class="text-colored fw-bold mt-2">SUV BMW</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/suv land rover.png" alt="LAND ROVER">
+            <h5 class="text-colored fw-bold mt-2">SUV LAND ROVER</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+
+<div class="tab-pane" id="sedans">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/civic.png" alt="Honda Civic">
+            <h5 class="text-colored fw-bold mt-2">Honda Civic</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+            <img class="d-block w-100" src="images/corolla.png" alt="Toyota Corolla">
+            <h5 class="text-colored fw-bold mt-2">Toyota Corolla</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua das Flores, 123, Bairro Jardim Encantado, Cidade das Ilusões, Estado Imaginário, CEP: 12345-678.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

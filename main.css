@@ -1,0 +1,72 @@
+#cabecalho .logo {
+    max-height: 50px; 
+    margin-right: 20px; 
+}
+
+#cabecalho .section-title {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #e13;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000;
+    color: #e13;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-veiculos .nav-link.active:hover {
+    color: #000;
+}
+
+.navbar-toggler {
+    background-color: rgb(128, 128, 128, 0.5);
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;
+}
+
+#sobre-nos, #veiculos {
+    background-color:rgb(128, 128, 128, 0.5);
+}
+
+.text-colored {
+    color: #e13;
+}
+
+.nav-veiculos .nav-link.active,
+#fale-conosco button {
+    background-color: #e13;
+    color: #000;
+}
+
+.nav-veiculos .nav-link:hover {
+    color: #e13;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
